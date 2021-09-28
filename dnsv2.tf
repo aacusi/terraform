@@ -1,9 +1,9 @@
-dns {
-        host = ""
-        access_token = ""
-        client_token = ""
-        client_secret = ""
-    }
+# dns {
+#         host = ""
+#         access_token = ""
+#         client_token = ""
+#         client_secret = ""
+#     }
 
 ### Setting up Zone Example
 resource "akamai_dns_zone" "test_zone" {
